@@ -27,5 +27,5 @@ $ poetry run jupyter notebook VQE.ipynb
 ...
 ```
 
-Alternatively, a `requirements.txt` is also included to prepare to install the
+Alternatively, a `requirements.txt` is also included to install the
 dependencies using only `pip`. Read more about this [here](https://pip.pypa.io/en/stable/reference/pip_install/)
