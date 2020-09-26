@@ -753,6 +753,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "pylatexenc"
+version = "2.7"
+description = "Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyparsing"
 version = "2.4.7"
 description = "Python parsing module"
@@ -1179,7 +1187,7 @@ requests = ">=2.20"
 [metadata]
 lock-version = "1.0"
 python-versions = "^3.8"
-content-hash = "4adb15509a646a7feb548261cc3bbb42d0b618a958074235c6b80ab2f8d01992"
+content-hash = "9d056932d959cb2297240e83b2a48c939f7ba74d184e11a7e56bc473237415ba"
 
 [metadata.files]
 appnope = [
@@ -1689,6 +1697,9 @@ pycparser = [
 pygments = [
     {file = "Pygments-2.7.1-py3-none-any.whl", hash = "sha256:307543fe65c0947b126e83dd5a61bd8acbd84abec11f43caebaf5534cbc17998"},
     {file = "Pygments-2.7.1.tar.gz", hash = "sha256:926c3f319eda178d1bd90851e4317e6d8cdb5e292a3386aac9bd75eca29cf9c7"},
+]
+pylatexenc = [
+    {file = "pylatexenc-2.7.tar.gz", hash = "sha256:8a3de4c035b9413a7721cab11e4cc7469d9370b441fbd498fc8d2ff37cbff678"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},

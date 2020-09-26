@@ -10,6 +10,7 @@ cython = "^0.29.21"
 qiskit = "^0.21.0"
 matplotlib = "^3.3.2"
 notebook = "^6.1.4"
+pylatexenc = "^2.7"
 
 [tool.poetry.dev-dependencies]
 
